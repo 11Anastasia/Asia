@@ -1,0 +1,36 @@
+.hello__container {
+	width: 511px;
+	height: 197px;
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 160px;
+	margin-bottom: 250px;
+	font-size: 46px;
+
+	
+}
+.hello__title {
+	font-size: 72px;
+	font-weight: bold;
+	line-height: 98px;
+	margin-bottom: 30px;
+	left: 390px;
+	display: flex;
+
+}
+.hello__subtitle {
+	font-size: 18px;
+	margin-bottom: 52px;
+}
+
+.button {
+	font-size: 20px;
+	position: absolute;
+	background: #F5170E;
+	border-radius: 35px;
+	padding: 18px 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
