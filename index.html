@@ -3,16 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<title>Air Asia</title>
-
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link 
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" 
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 	<div class="wrapper">
-		<div class="wrapper__content">
+		<div class="wrapper__content wrapper__content--main">
 			<header class="header">
 				<div class="container">
-					<a href="#" class="logo">
-						<img src="" alt="" class="logo__img">
+					<a href="/" class="logo">
+						<img src="./img/logo.png" alt="logo" class="logo__img">
 					</a>
 					<nav class="menu">
 						<ul class="menu__list">
@@ -30,6 +34,7 @@
 					<address class="contacts">
 						<a href="tel:+78007003030" class="contacts__phone">88007003030</a>
 						<div class="contacts__info">График работы</div>
+						<img src="./img/contacts__info.png">
 					</address>
 				</div>
 			</header>
@@ -42,11 +47,13 @@
 					</div>
 				</section>
 				<section class="offers">
-					<div class="container">
+					<div class="container__offers">
 						<h2 class="title title--fire">Горящие туры</h2>
 						<div class="offers__list">
 							<li class="offers__item">
-								<img src="" alt="" class="offers__img">
+								<div class="offers__header">
+									<img src="./img/river.png" alt="" class="offers__img--river">
+								</div>
 								<div class="offers__content">
 									<h5 class="offers__title">Таиланд</h5>
 									<ul class="offers__features">
@@ -66,7 +73,7 @@
 								</div>
 							</li>
 							<li class="offers__item">
-								<img src="" alt="" class="offers__img">
+								<img src="./img/pool.png" alt="" class="offers__img--pool">
 								<div class="offers__content">
 									<h5 class="offers__title">Бали</h5>
 									<ul class="offers__features">
@@ -82,11 +89,11 @@
 									<p class="offers_text">
 										Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия
 									</p>
-									<a href="#" class="button button--light">Смотреть</a>
+									<a href="#" class="button button">Смотреть</a>
 								</div>
 							</li>
 							<li class="offers__item">
-								<img src="" alt="" class="offers__img">
+								<img src="./img/ocean.png" alt="" class="offers__img--ocean">
 								<div class="offers__content">
 									<h5 class="offers__title">Индонезия</h5>
 									<ul class="offers__features">
@@ -109,11 +116,11 @@
 					</div>
 				</section>
 				<section class="news">
-					<div class="container">
+					<div class="container__news">
 						<h2 class="title">Новости и акции</h2>
 						<ul class="news__list">
 							<li class="news__item">
-								<img src="" alt="" class="news__img">
+								<img src="./img/plain.png" alt="" class="news__img">
 								<div class="news__content">
 									<data class="news__data">Декабрь 2019</data>
 									<h5 class="news__title">Дешевые путевки на Новый Год!</h5>
@@ -121,7 +128,7 @@
 								</div>
 							</li>
 							<li class="news__item">
-								<img src="" alt="" class="news__img">
+								<img src="./img/surfer.png" alt="" class="news__img">
 								<div class="news__content">
 									<data class="news__data">Декабрь 2019</data>
 									<h5 class="news__title">Акция для серфенгистов!</h5>
@@ -132,20 +139,20 @@
 						<div class="paginator">
 							<div class="paginator__display">Страница 1 из 7</div>
 							 <ul class="paginator__list">
-							 	<li class="paginator__item">1</li>
-							 	<li class="paginator__item">2</li>
-							 	<li class="paginator__item">3</li>
-							 	<li class="paginator__item">4</li>
-							 	<li class="paginator__item">5</li>
-							 	<li class="paginator__item">6</li>
-							 	<li class="paginator__item">7</li>
+							 	<li class="paginator__item"> <a href="#" class="paginator__link--active">1</a></li>
+							 	<li class="paginator__item"> <a href="#" class="paginator__link">2</a></li>
+							 	<li class="paginator__item"> <a href="#" class="paginator__link">3</a></li>
+							 	<li class="paginator__item"> <a href="#" class="paginator__link">4</a></li>
+							 	<li class="paginator__item"> <a href="#" class="paginator__link">5</a></li>
+							 	<li class="paginator__item"> <a href="#" class="paginator__link">6</a></li>
+							 	<li class="paginator__item"> <a href="#" class="paginator__link">7</a></li>
 							 </ul>
 						</div>
 					</div>
 				</section>
 				<section class="about">
-					<div class="container">
-						<img src="" alt="" class="about__img">
+					<div class="container__about">
+						<img src="./img/gates.png" alt="" class="about__img">
 						<div class="about__content">
 							<img src="" alt="" class="about__image">
 							<h3 class="title title--dark">О нас</h3>
@@ -157,20 +164,20 @@
 			</main>
 		</div>
 		<footer class="footer">
-			<div class="container">
-					<a href="#" class="logo">
-						<img src="" alt="" class="logo__img">
+			<div class="container__footer">
+					<a href="#" class="logo__png">
+						<img src="" alt="" class="logo__png">
 					</a>
-					<nav class="menu">
-						<ul class="menu__list">
+					<nav class="menu__footer">
+						<ul class="menu__list--footer">
 							<li class="menu__item">
-								<a href="#" class="menu__link">Главная</a>
+								<a href="#" class="menu__link--footer">Главная</a>
 							</li>
 							<li class="menu__item">
-								<a href="#" class="menu__link">Услуги</a>
+								<a href="#" class="menu__link--footer">Услуги</a>
 							</li>
 							<li class="menu__item">
-								<a href="#" class="menu__link">Отзывы</a>
+								<a href="#" class="menu__link--footer">Отзывы</a>
 							</li>
 						</ul>
 					</nav>
@@ -196,7 +203,7 @@
 							</a>
 						</li>
 					</ul>
-					<address class="contacts">
+					<address class="contacts__footer">
 						<div class="contacts__desc">Бесплатный звонок по России</div>
 						<a href="tel:+78007003030" class="contacts__phone">88007003030</a>
 					</address>
