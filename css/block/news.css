@@ -1,14 +1,8 @@
 .container__news {
-		padding-bottom: 0px;
-		position: absolute;
-	width: 1140px;
 	
-	left: 200px;
-	top: 1405px;
-	margin-bottom: 127px;
+	margin-bottom: 77px;
 }
 .news__item {
-	width: 557px;
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
@@ -56,17 +50,4 @@
 .paginator__item {
 	display: inline-block;
 	vertical-align: middle;
-}
-.paginator__link{
-	display: block;
-	width: 32px;
-	height: 32px;
-	border-radius: 50%;
-	text-decoration: none;
-	font-weight: bold;
-	line-height: 32px;
-}
-.paginator__link--active {
-	background: #ffffff;
-	color: #F5170E;
 }
